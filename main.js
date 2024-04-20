@@ -1,21 +1,10 @@
 var a = prompt("Yoshingizni kiriting:");
 if (a < 14) {
-    document.body.innerHTML = ""; // Bu qator saytning barcha HTML kodini o'chiradi
+ alert("Clever")
 }
-var ism = prompt("Ismingizni kiriting:");
-var yosh = prompt("Yoshingizni kiriting:");
-
-// Foydalanuvchining ismi va yoshi
-var foydalanuvchiMalumotlari = "Ism: " + ism + "\nYosh: " + yosh;
-
-// Emailim
-var email = prompt("Saytga kirishni xoxlasangiz okni bosing!?", "webdeveloperas02@gmail.com");
-
-// Xabar
-var xabar = "Assalomu alaykum!\n\nSizning saytga keldingiz. Sizning ma'lumotlaringiz quyida:\n\n" + foydalanuvchiMalumotlari + "\n\nHurmat bilan,\nSayt admini";
-
-// Xabarni emailga yuborish
-window.location.href = "mailto:" + email + "?subject=Sizning ma'lumotlaringiz&body=" + encodeURIComponent(xabar);
+else{
+       alert("sen bu saytga kirishga yoshlik qilasan @asow_02 murojat qil")
+}
 
 
 
