@@ -1,5 +1,5 @@
 var a = prompt("Yoshingizni kiriting:");
-if (a < 14) {
+if (a > 14) {
  alert("Clever")
 }
 else{
