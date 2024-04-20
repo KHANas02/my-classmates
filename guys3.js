@@ -1,7 +1,3 @@
-var yosh = prompt("Yoshingizni kiriting:");
-if (yosh < 14) {
-    document.body.innerHTML = ""; // Bu qator saytning barcha HTML kodini o'chiradi
-}
 
 
 
